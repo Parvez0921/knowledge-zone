@@ -1,0 +1,102 @@
+[
+    {
+        "id": 1,
+        "cover_picture": "https://i.ibb.co.com/2vLyf67/annie-spratt-OWq8w3-BYMFY-unsplash.jpg",
+        "title": "Exploring the Universe",
+        "author": "Jane Doe",
+        "author_image": "https://i.ibb.co.com/1TdPSYx/jakayla-toney-rlfwm56-TRy0-unsplash.jpg",
+        "posted_date": "2024-11-25",
+        "reading_time": "15 min",
+        "hashtag": ["#space", "#science", "#astronomy"]
+    },
+    {
+        "id": 2,
+        "cover_picture": "https://i.ibb.co.com/TK1G3my/clark-tibbs-oq-Stl2-L5ox-I-unsplash.jpg",
+        "title": "The Future of AI",
+        "author": "John Smith",
+        "author_image": "https://i.ibb.co.com/K7MypQv/velizar-ivanov-s-Bmb-T86mv-UE-unsplash.jpg",
+        "posted_date": "2024-11-20",
+        "reading_time": "10 min",
+        "hashtag": ["#technology", "#AI", "#future"]
+    },
+    {
+        "id": 3,
+        "cover_picture": "https://i.ibb.co.com/MhFrLKT/corinne-kutz-t-MI2-r5-Nfo-unsplash.jpg",
+        "title": "Healthy Eating Habits",
+        "author": "Emily Johnson",
+        "author_image": "https://i.ibb.co.com/3dMQrWy/jodie-cook-S2r-P7-CQP3-WU-unsplash.jpg",
+        "posted_date": "2024-11-18",
+        "reading_time": "8 min",
+        "hashtag": ["#health", "#nutrition", "#lifestyle"]
+    },
+    {
+        "id": 4,
+        "cover_picture": "https://i.ibb.co.com/nrFh7Wf/daria-nepriakhina-x-Y55b-L5m-ZAM-unsplash.jpg",
+        "title": "Traveling the World",
+        "author": "Michael Brown",
+        "author_image": "https://i.ibb.co.com/qsPRqbg/bermix-studio-5-FWp9m5p-Agk-unsplash.jpg",
+        "posted_date": "2024-11-15",
+        "reading_time": "12 min",
+        "hashtag": ["#travel", "#adventure", "#world"]
+    },
+    {
+        "id": 5,
+        "cover_picture": "https://i.ibb.co.com/KVRTXx1/firmbee-com-Df-MMzzi3rmg-unsplash.jpg",
+        "title": "Mastering the Art of Cooking",
+        "author": "Sarah Lee",
+        "author_image": "https://i.ibb.co.com/N76qgTJ/marcos-paulo-prado-TY3-SIn4-Tt-No-unsplash.jpg",
+        "posted_date": "2024-11-10",
+        "reading_time": "20 min",
+        "hashtag": ["#cooking", "#recipes", "#food"]
+    },
+    {
+        "id": 6,
+        "cover_picture": "https://i.ibb.co.com/7GPCv8m/ian-schneider-Tam-Mbr4okv4-unsplash.jpg",
+        "title": "Innovations in Renewable Energy",
+        "author": "Laura Green",
+        "author_image": "https://i.ibb.co.com/qsPRqbg/bermix-studio-5-FWp9m5p-Agk-unsplash.jpg",
+        "posted_date": "2024-11-05",
+        "reading_time": "18 min",
+        "hashtag": ["#renewableenergy", "#innovation", "#sustainability"]
+    },
+    {
+        "id": 7,
+        "cover_picture": "https://i.ibb.co.com/1nh5zGs/thought-catalog-505eect-W54k-unsplash.jpg",
+        "title": "The Psychology of Happiness",
+        "author": "David White",
+        "author_image": "https://i.ibb.co.com/1TdPSYx/jakayla-toney-rlfwm56-TRy0-unsplash.jpg",
+        "posted_date": "2024-11-02",
+        "reading_time": "14 min",
+        "hashtag": ["#psychology", "#happiness", "#wellbeing"]
+    },
+    {
+        "id": 8,
+        "cover_picture": "https://i.ibb.co.com/FhkvwHV/patrick-tomasso-Oaqk7qq-Nh-c-unsplash.jpg",
+        "title": "The Art of Minimalism",
+        "author": "Sophia Davis",
+        "author_image": "https://i.ibb.co.com/3dMQrWy/jodie-cook-S2r-P7-CQP3-WU-unsplash.jpg",
+        "posted_date": "2024-10-30",
+        "reading_time": "11 min",
+        "hashtag": ["#minimalism", "#lifestyle", "#design"]
+    },
+    {
+        "id": 9,
+        "cover_picture": "https://i.ibb.co.com/PxK0WXH/scott-graham-5f-Nm-Wej4t-AA-unsplash.jpg",
+        "title": "Understanding Blockchain Technology",
+        "author": "Brian Thompson",
+        "author_image": "https://i.ibb.co.com/K7MypQv/velizar-ivanov-s-Bmb-T86mv-UE-unsplash.jpg",
+        "posted_date": "2024-10-25",
+        "reading_time": "16 min",
+        "hashtag": ["#blockchain", "#technology", "#crypto"]
+    },
+    {
+        "id": 10,
+        "cover_picture": "https://i.ibb.co.com/9g5gVmP/simon-berger-twuk-N12-EN7c-unsplash.jpg",
+        "title": "The Future of Urban Development",
+        "author": "Olivia Martinez",
+        "author_image": "https://i.ibb.co.com/N76qgTJ/marcos-paulo-prado-TY3-SIn4-Tt-No-unsplash.jpg",
+        "posted_date": "2024-10-20",
+        "reading_time": "13 min",
+        "hashtag": ["#urbanddevelopment", "#future", "#architecture"]
+    }   
+]
