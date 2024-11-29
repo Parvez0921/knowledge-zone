@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import { CiBookmarkPlus } from "react-icons/ci";
-const Blog = ({blog, handleAddBookmark}) => {
-    const {title, cover_picture,author, author_image,reading_time,hashtag, posted_date} = blog;
+const Blog = ({blog, handleAddBookmark, handleMarkedAsRead}) => {
+    const {id,title, cover_picture,author, author_image,reading_time,hashtag, posted_date} = blog;
     return (
         <div className='bg-slate-300 p-6 m-10 rounded-lg'>
             <img className='rounded-md' src={cover_picture} alt={`Cover pictue of the title ${title}`} />
@@ -14,7 +14,7 @@ const Blog = ({blog, handleAddBookmark}) => {
                     </div>
                 </div>
                 <div>
-                    <span>{reading_time} read time</span>
+                    <span>{reading_time} min read time</span>
                     <button onClick={() => handleAddBookmark(blog)} className='ml-2 text-2xl'><CiBookmarkPlus/></button>
                 </div>
 
@@ -23,10 +23,11 @@ const Blog = ({blog, handleAddBookmark}) => {
             <h2 className="text-4xl font-bold">{title}</h2>
             <p className='m-4'>
                 {
-                    hashtag.map((hash, idx)=> <span key={idx}> <a href="">#{hash} </a></span>)
+                    hashtag.map((hash, idx)=> <span key={idx}> <a href="">{hash} </a></span>)
                 }
             </p>
             </div>
+            <button onClick={()=>handleMarkedAsRead(id,reading_time)} className='m-2 p-4 font-bold bg-green-400 rounded-lg'>Mark as Read</button>
             
         </div>
     );
@@ -34,7 +35,8 @@ const Blog = ({blog, handleAddBookmark}) => {
 
 Blog.propTypes = {
     blog: PropTypes.object.isRequired,
-    handleAddBookmark: PropTypes.func
+    handleAddBookmark: PropTypes.func,
+    handleMarkedAsRead: PropTypes.func
 }
 
 export default Blog;

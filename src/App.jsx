@@ -8,20 +8,33 @@ import PropTypes from 'prop-types';
 
 function App() {
 
-  const [bookmarks, setBookmarks] = useState([])
+  const [bookmarks, setBookmarks] = useState([]);
+  const [readingTime, setReadingTime] = useState(0);
 
   const handleAddBookmark = blog =>{
     const newBookmarks =[...bookmarks, blog]
     setBookmarks(newBookmarks)
   }
 
+  const handleMarkedAsRead = (id,time) =>{
+    const newReadingTime = readingTime + parseInt(time);
+    setReadingTime(newReadingTime);
+    console.log('remove bookmark', id)
+    const remainingBookmark = bookmarks.filter(bookmark => bookmark.id !== id)
+    setBookmarks(remainingBookmark)
+
+  }
+
+
   return (
     <>
       
       <Header/>
       <div className='md:flex m-10 max-w-7xl mx-auto'>
-        <Blogs handleAddBookmark={handleAddBookmark}/>
-        <Bookmarks bookmarks={bookmarks}/>
+        <Blogs
+        handleMarkedAsRead={handleMarkedAsRead}  
+        handleAddBookmark={handleAddBookmark}/>
+        <Bookmarks readingTime={readingTime} bookmarks={bookmarks}/>
 
       </div>
     </>
@@ -29,8 +42,9 @@ function App() {
 }
 
 App.propTypes = {
-  handleAddBookmark: PropTypes.func
-  
+  handleAddBookmark: PropTypes.func,
+  handleMarkedAsRead: PropTypes.func
+
 }
 
 export default App
